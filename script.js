@@ -1,15 +1,20 @@
-red.addEventListener("click", function () {
-  document.getElementById("red").style.backgroundColor = "#FF0000";
-});
+red.addEventListener("click", changeToRed);
+green.addEventListener("click", changeToGreen);
+blue.addEventListener("click", changeToBlue);
+yellow.addEventListener("click", changeToYellow);
 
-green.addEventListener("click", function () {
-  document.getElementById("green").style.backgroundColor = "#00FF00";
-});
+function changeToRed() {
+  document.getElementById("colorbox").style.backgroundColor = "red";
+}
 
-blue.addEventListener("click", function () {
-  document.getElementById("blue").style.backgroundColor = "#0000FF";
-});
+function changeToGreen() {
+  document.getElementById("colorbox").style.backgroundColor = "green";
+}
 
-yellow.addEventListener("click", function () {
-  document.getElementById("yellow").style.backgroundColor = "#FFFF00";
-});
+function changeToBlue() {
+  document.getElementById("colorbox").style.backgroundColor = "blue";
+}
+
+function changeToYellow() {
+  document.getElementById("colorbox").style.backgroundColor = "yellow";
+}

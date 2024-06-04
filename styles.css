@@ -1,6 +1,49 @@
-#colorbox {
-  width: 20%;
-  height: 20%;
-  align-items: center;
+body {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 18%;
 }
 
+#colorbox {
+  width: 500px;
+  height: 500px;
+  background-color: skyblue;
+  color: black;
+}
+
+.red {
+  border: 1px solid 5px;
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 15pt;
+}
+
+.green {
+  border: 1px solid 5px;
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 15pt;
+}
+
+.blue {
+  border: 1px solid 5px;
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 15pt;
+}
+
+.yellow {
+  border: 1px solid 5px;
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 15pt;
+}
