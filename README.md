@@ -6,4 +6,4 @@ For the HTML, I added a div tag with an id that says "colorbox", with an h1 tag 
 
 When I started working on the JavaScript, I looked back at my Trello board and my notepad and started to implement event listeners. Some of the challenges that I faced while coding the JavaScript included implementing the event listeners, buttons, and functions that manipulated the color of the square. However, I was able to make it work. Below are some screenshots of the project for your convenience.
 
-![Color Changer](/color-changer.gif)
+![Color Changer](/color-changer1.gif)
